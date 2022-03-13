@@ -1,0 +1,168 @@
+<!-- In first hour of creating my page, I was reading about what I should include, and then I use pure HTML for creating content, now I am going to find images, and then style my page-->
+<!-- In 2. hour of creating my resume, I've added styles and photo of me, I am planning to add more photos later, and also improve my page and in the end, I am going to make my page responsive IN ADDITION!!: I realized that I made mistake with commenting my html. I commented on the end but exam says we must comment on top, I am sorry.-->
+<!-- In 3. hour I was exploring and learning how to put elements in columns and I want to put photo and About me in two columns in one div element..-->
+<!-- In 4. hour I added text in line with image and I added buttons without functions, because we cannot include links in our resume. But I have idea that with buttons you can visit my fb, insta, call me etc..-->
+<!-- In 5. hour I added more photos and finished with design for now, I have more ideas but that's not easy to include in page in only six hours.-->
+<!-- In 6. hour I have not make visible changes, I made some design changes but at the end I dismiss it. I have been testing responsibility of my page with Chrome inspect element.. And that's it. I made my resume page, I like it, but it could be always much better.. -->
+<!-- In 7. hour I added links to my page, hover state for some elements and I am working on improving design -->
+<!-- In 8. hour I improved design of my page by changing background colors of some elements, also I worked on margin and paddings of some div elements..-->
+<!-- In 9. hour I added mini icons for contact elements, also I have tested responsivness of my page, I am now thinking about that I can add some background photo behind background color but I want make it transparent in Photoshop..-->
+<DOCTYPE html>
+<html> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+body {
+    background-color: #154360;
+    font-family: Arial; 
+    color: #FFFFFF;
+    display: flex;
+}
+.title {
+    font-family: 'Oswald', 'Arial Narrow'; 
+    color: #FFFFFF;
+    text-align: center;
+}
+.titles {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f68f09;
+}
+.border {
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 5px;
+    color: #FFFFFF; 
+    box-shadow: #FFFFFF;
+}
+.img-style {
+    width: 360px;
+    height:415px;
+    float: left;
+    margin-right: 10px;
+}
+.title2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f68f09;
+    opacity: 0.9;
+    text-align: center;
+}
+#div-element {
+    margin-left: 25px;
+}
+.div-prvi {
+    background-color: none;
+    margin-left: 25px;
+}
+#div-drugi {
+    background-color: #012C47;
+  padding: 10px 10px 10px 10px;
+}
+.mss-img {
+    margin:auto;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 5px;
+    width: 400px;
+    height: 250px;
+}
+button:hover {
+    background-color:#f68f09;
+}
+button {
+    background-color: #AED6F1;
+    font-weight: bold;
+    color: #154360;
+}
+a {
+    color:#ffffff;
+    font-style: italic;
+}
+a:hover {
+    color:#f68f09;
+    font-weight: bold;
+}
+#footer {
+    text-align: center;
+    font-weight: bold;
+    color:#f68f09;
+}
+#naslov-div {
+    background-color: #012C47;
+    margin: 5px 5px 5px 5px;
+    border-width: 3px; 
+    border-style: solid;
+    border-color: #FFFFFF;   
+}
+.icons {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+
+</style>
+
+<meta charset="utf-8">
+<title> Amar Kahrimanovic - CV </title>
+<body> 
+    <div id="naslov-div"> <h1 class="title" id="title">  I'm <em>Amar Kahrimanovic</em> </h1>
+    <h2 class="title2"> - Bachelor engineer of electrotechnics (2025) - </h2> </div>
+    <br>
+    <img class="border img-style" src="C:\Users\Amar\Desktop\myResume\ak.jpg" alt="myPhoto"> 
+    <div class="div-prvi" id="div-element">
+        <hr>
+ <h2 class="titles"> About me </h2>
+    <p>  My name is Amar Kahrimanovic. I am 20 years old. I am studying electrotechnics at Faculty of electrotechnics in Tuzla. I finshed high school with excellent success. I was student of generation at high school. I have a lot of diplomas from competitions all around Bosnia and Herzegovina. I do not have earlier work experience but I am really good at Mathemathics, Informatics and Science. I am good in programming, precisely HTML/HTML5 and CSS. I am resourceful and I think that I could work as an office worker or manager. My main strength is that I have good organisation and I did everything by plan. Also I am co-leader of our local youth community "Voice" and I enjoy working with people.<br><br></p>  
+</div>
+<hr>
+<div class="div-prvi">
+    <h2 class="titles"> Contact me</h2>
+    <p> <img class="icons" src="C:\Users\Amar\Desktop\myResume\gmail.png" alt="gmail.png" ><strong>Gmail</strong>: amar.kahrimanovic1@gmail.com  <a href="https://mail.google.com/mail/u/0/#sent?compose=new" target="_blank"> <button type="submit"> Send e-mail</button> </a></p> 
+    <p> <img class="icons" src="C:\Users\Amar\Desktop\myResume\fb.png" alt="fb.png" ><strong>Facebook</strong>: Amar Kahrimanovic <a href="https://www.facebook.com/kahrimanoviccc/" target="_blank" ><button type="submit"> Visit my Facebook</button> </a> </p>
+    <p> <img class="icons" src="C:\Users\Amar\Desktop\myResume\instagram.png" alt="instagram.png" ><strong>Instagram</strong>: @kahrimanoviccc <a href="https://www.instagram.com/kahrimanoviccc/" target="_blank" ><button type="submit"> Visit my Instagram</button> </a> </p> 
+    <p> <img class="icons" src="C:\Users\Amar\Desktop\myResume\viber.png" alt="viber.png" ><strong>  Viber</strong>: +387603440396 <a href="https://www.viber.com/en/" target="_blank" > <button type="submit"> Call me</button> </a> </p>
+<hr>   
+</div>
+<br>
+<br>
+<hr>
+
+    <div id="div-drugi"> <h2 class="titles">Education</h2>
+    <p>  <strong>High school</strong>:  <a href="https://mssdi.co.ba/" title="MSSDI" target="_blank"> Mješovita srednja skola Doboj Istok (Student of generation)</a></p>
+    <img class="mss-img" src="C:\Users\Amar\Desktop\myResume\mss.jpg" alt="mssdi">
+    <p>  <strong>University</strong>: Univerzitet u Tuzli</p>
+    <p>  <strong>Faculty</strong>: <a href="http://www.fe.untz.ba/" title="FET" target="_blank"> Faculty of electrotechnics </a></p>
+    <img class="mss-img" src="C:\Users\Amar\Desktop\myResume\fet.jpg" alt="FET">
+    <p>  <strong>Diploma</strong>: Bachelor engineer of electrotechnics (2025) </p>
+    <p>  <strong>City</strong>:  Tuzla</p>
+    <p>  <strong>Country</strong>: Bosnia and Herzegovina</p>
+    <p>  <strong>ZIP</strong>: 75000</p>  </div>
+   <hr>
+   <div> <h2 class="titles"> Skills</h2>
+    <p>
+<ol>
+   <strong> <li> HTML and HTML5</li>
+    <br>
+    <li> CSS </li>
+    <br><li> Mathemathics</li>
+    <br><li> Physics</li> </strong> 
+</ol>
+</p>
+</div>
+<hr>
+<div id="div-drugi">
+<h2 class="titles"> My personal interests</h2>
+<ul>
+<em><li> Technology</li>
+<br>
+<li> Football</li>    <br>
+<li> Traveling</li></em>
+</ul>
+
+<br>
+<p id="footer"> <a href="#title"> GO TO START </a> </p>
+<br>
+<hr>
+</div>
+</body>
+</html>
+
